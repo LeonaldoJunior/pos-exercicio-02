@@ -20,43 +20,59 @@
 <body>
   <div class="d-flex flex-column vh-100">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand -->
       <a
         class="navbar-brand"
         href="#"
       >
         Logo
       </a>
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a
-            class="nav-link"
-            href="#"
-          >
-          Seletor de cor
-        </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="#"
-          >
-            Contador
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="#"
+            >
+            Seletor de cor
           </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="#"
-          >
-            Cronometro
-          </a>
-        </li>
-      </ul>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+            >
+              Contador
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+            >
+              Cronometro
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
     </nav>
   </div>
 
   <!-- Add your site or application content here -->
 
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/popper.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

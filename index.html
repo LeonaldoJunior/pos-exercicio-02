@@ -12,6 +12,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -68,12 +69,33 @@
     </nav>
     <header></header>
     <main class="flex-grow pb-3 pt-sm-3 text-justify">
+
       <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
         <div class="container ">
           <h1>Contador</h1>
           <p class="lead">Utilize os botoes abaixo para registrar uma contagem</p>
         </div>
       </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-sm-6 text-sm-right form-group">
+            <button type="button" class="btn btn-success form-control">
+              <i class="bi bi-dash-circle-fill"></i>
+              1
+            </button>
+          </div>
+
+          <div class="col-12 col-sm-6 text-sm-right form-group">
+            <button type="button" class="btn btn-danger form-control">
+              <i class="bi bi-plus-circle-fill"></i>
+              1
+            </button>
+          </div>
+
+        </div>
+      </div>
+
     </main>
     <footer></footer>
   </div>
